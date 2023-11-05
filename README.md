@@ -1,3 +1,6 @@
+[![HitCount](https://hits.dwyl.com/sudouser777/Java-The-Complete-Reference-12th-Edition-Source-Code.svg?style=flat-square&show=unique)](http://hits.dwyl.com/sudouser777/Java-The-Complete-Reference-12th-Edition-Source-Code)
+
+
 # Java: The Complete Reference (12th Edition) - Source Code
 
 This repository contains the source code examples from the book "Java: The Complete Reference, 12th Edition" by Herbert Schildt. You can use this code to enhance your understanding of Java programming concepts as presented in the book.
