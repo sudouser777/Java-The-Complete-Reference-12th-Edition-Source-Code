@@ -1,4 +1,3 @@
-
 // Demonstrate a constructor reference with a generic class.
 
 // MyFunc4 is now a generic functional interface.

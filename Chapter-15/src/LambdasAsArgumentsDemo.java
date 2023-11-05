@@ -1,4 +1,3 @@
-
 // Use lambda expressions as an argument to a method.
 
 class LambdasAsArgumentsDemo {

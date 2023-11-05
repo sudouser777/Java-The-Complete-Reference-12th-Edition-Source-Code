@@ -1,4 +1,3 @@
-
 // A block lambda that reverses the characters in a string.
 
 interface StringFunc {
