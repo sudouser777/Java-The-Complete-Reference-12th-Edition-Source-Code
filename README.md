@@ -1,5 +1,5 @@
-[![HitCount](https://hits.dwyl.com/sudouser777/Java-The-Complete-Reference-12th-Edition-Source-Code.svg?style=flat-square&show=unique)](http://hits.dwyl.com/sudouser777/Java-The-Complete-Reference-12th-Edition-Source-Code)
-
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+<hr>
 
 # Java: The Complete Reference (12th Edition) - Source Code
 
