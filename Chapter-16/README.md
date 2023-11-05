@@ -2,8 +2,7 @@
 
 **Compilation of all modules**
 ```bash
-javac -d appmodules --module-source-path appsrc appsrc/appstart/appstart/mymodappdemo/MyModApp
-Demo.java
+javac -d appmodules --module-source-path appsrc appsrc/appstart/appstart/mymodappdemo/MyModAppDemo.java
 ```
 
 **Running the module**
