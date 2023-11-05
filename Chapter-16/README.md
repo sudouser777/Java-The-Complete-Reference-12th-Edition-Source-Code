@@ -14,3 +14,8 @@ java --module-path appmodules -m appstart/appstart.mymodappdemo.MyModAppDemo
 ```bash
 javac --module-path appmodules -d appmodules/appstart appsrc/appstart/module-info.java  appsrc /appstart/appstart/mymodappdemo/MyModAppDemo.java
 ```
+
+**Compilation of module based service**
+```bash
+ javac -d appmodules --module-source-path appsrc appsrc/userfuncsimp/module-info.java appsrc/appstart/appstart/mymodappdemo/MyModAppDemo.java
+```
