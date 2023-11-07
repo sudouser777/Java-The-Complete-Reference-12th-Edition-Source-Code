@@ -1,6 +1,6 @@
-record Employee4(String name, int idNum) {
+record Employee(String name, int idNum) {
 
-    public Employee4 {
+    public Employee {
         // Remove any leading and trailing spaces.
         name = name.trim();
 
@@ -23,17 +23,17 @@ record Employee4(String name, int idNum) {
 
 class Demo {
     public static void main(String[] args) {
-        Employee4[] empList = new Employee4[4];
-        empList[0] = new Employee4("Doe, John", 1047);
+        Employee[] empList = new Employee[4];
+        empList[0] = new Employee("Doe, John", 1047);
 
         // No comma between last and first name.
-        empList[1] = new Employee4("Jones Robert", 1048); // throws exception
+        empList[1] = new Employee("Jones Robert", 1048); // throws exception
 
         // Extra commas.
-        empList[2] = new Employee4("Jones, ,Robert", 1048); // throws exception
+        empList[2] = new Employee("Jones, ,Robert", 1048); // throws exception
 
         // Missing last name.
-        empList[3] = new Employee4(", Robert", 1048); // throws exception
+        empList[3] = new Employee(", Robert", 1048); // throws exception
 
     }
 }

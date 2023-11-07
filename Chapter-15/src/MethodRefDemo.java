@@ -1,5 +1,9 @@
 // Demonstrate a method reference for a static method.
 
+// A functional interface for string operations.
+interface StringFunc {
+    String func(String n);
+}
 
 // This class defines a static method called strReverse().
 class MyStringOps {

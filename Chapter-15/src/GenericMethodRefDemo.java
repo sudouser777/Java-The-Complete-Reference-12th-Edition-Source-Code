@@ -3,7 +3,7 @@
 
 // A functional interface that operates on an array
 // and a value, and returns an int result.
-interface MyFunc2<T> {
+interface MyFunc<T> {
     int func(T[] vals, T v);
 }
 
@@ -24,10 +24,10 @@ class MyArrayOps {
 
 class GenericMethodRefDemo {
 
-    // This method has the MyFunc2 functional interface as the
+    // This method has the MyFunc functional interface as the
     // type of its first parameter. The other two parameters
     // receive an array and a value, both of type T.
-    static <T> int myOp(MyFunc2<T> f, T[] vals, T v) {
+    static <T> int myOp(MyFunc<T> f, T[] vals, T v) {
         return f.func(vals, v);
     }
 

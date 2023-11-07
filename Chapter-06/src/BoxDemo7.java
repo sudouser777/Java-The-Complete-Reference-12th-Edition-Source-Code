@@ -1,13 +1,13 @@
-/* Here, Box8 uses a parameterized constructor to
+/* Here, Box uses a parameterized constructor to
    initialize the dimensions of a box.
 */
-class Box8 {
+class Box {
     double width;
     double height;
     double depth;
 
-    // This is the constructor for Box8.
-    Box8(double w, double h, double d) {
+    // This is the constructor for Box.
+    Box(double w, double h, double d) {
         width = w;
         height = h;
         depth = d;
@@ -21,9 +21,9 @@ class Box8 {
 
 class BoxDemo7 {
     public static void main(String[] args) {
-        // declare, allocate, and initialize Box8 objects
-        Box8 mybox1 = new Box8(10, 20, 15);
-        Box8 mybox2 = new Box8(3, 6, 9);
+        // declare, allocate, and initialize Box objects
+        Box mybox1 = new Box(10, 20, 15);
+        Box mybox2 = new Box(3, 6, 9);
 
         double vol;
 

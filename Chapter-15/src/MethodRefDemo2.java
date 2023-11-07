@@ -1,8 +1,13 @@
 // Demonstrate a method reference to an instance method
 
+// A functional interface for string operations.
+interface StringFunc {
+    String func(String n);
+}
+
 
 // Now, this class defines an instance method called strReverse().
-class MyStringOps2 {
+class MyStringOps {
     String strReverse(String str) {
         String result = "";
         int i;
@@ -27,8 +32,8 @@ class MethodRefDemo2 {
         String inStr = "Lambdas add power to Java";
         String outStr;
 
-        // Create a MyStringOps2 object.
-        MyStringOps2 strOps = new MyStringOps2();
+        // Create a MyStringOps object.
+        MyStringOps strOps = new MyStringOps();
 
         // Now, a method reference to the instance method strReverse
         // is passed to stringOp().

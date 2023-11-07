@@ -1,6 +1,6 @@
 // This program uses a parameterized method.
 
-class Box6 {
+class Box {
     double width;
     double height;
     double depth;
@@ -20,8 +20,8 @@ class Box6 {
 
 class BoxDemo5 {
     public static void main(String[] args) {
-        Box6 mybox1 = new Box6();
-        Box6 mybox2 = new Box6();
+        Box mybox1 = new Box();
+        Box mybox2 = new Box();
         double vol;
 
         // initialize each box

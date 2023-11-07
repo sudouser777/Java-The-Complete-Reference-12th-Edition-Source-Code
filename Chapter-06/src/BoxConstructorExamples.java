@@ -1,13 +1,13 @@
-/* Here, Box9 uses a parameterized constructor to
+/* Here, Box uses a parameterized constructor to
    initialize the dimensions of a box.
 */
-class Box9 {
+class Box {
     double width;
     double height;
     double depth;
 
     // A redundant use of this.
-    Box9(double w, double h, double d) {
+    Box(double w, double h, double d) {
         this.width = w;
         this.height = h;
         this.depth = d;
@@ -19,13 +19,13 @@ class Box9 {
     }
 }
 
-class Box10 {
+class Box {
     double width;
     double height;
     double depth;
 
     // Use this to resolve name-space collisions.
-    Box10(double width, double height, double depth) {
+    Box(double width, double height, double depth) {
         this.width = width;
         this.height = height;
         this.depth = depth;

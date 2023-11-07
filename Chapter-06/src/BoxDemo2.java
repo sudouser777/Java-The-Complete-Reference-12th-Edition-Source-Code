@@ -1,6 +1,6 @@
-// This program declares two Box3 objects.
+// This program declares two Box objects.
 
-class Box3 {
+class Box {
     double width;
     double height;
     double depth;
@@ -8,8 +8,8 @@ class Box3 {
 
 class BoxDemo2 {
     public static void main(String[] args) {
-        Box3 mybox1 = new Box3();
-        Box3 mybox2 = new Box3();
+        Box mybox1 = new Box();
+        Box mybox2 = new Box();
         double vol;
 
         // assign values to mybox1's instance variables

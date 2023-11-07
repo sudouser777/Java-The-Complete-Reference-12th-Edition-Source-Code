@@ -1,6 +1,6 @@
 // Now, volume() returns the volume of a box.
 
-class Box5 {
+class Box {
     double width;
     double height;
     double depth;
@@ -13,8 +13,8 @@ class Box5 {
 
 class BoxDemo4 {
     public static void main(String[] args) {
-        Box5 mybox1 = new Box5();
-        Box5 mybox2 = new Box5();
+        Box mybox1 = new Box();
+        Box mybox2 = new Box();
         double vol;
 
         // assign values to mybox1's instance variables

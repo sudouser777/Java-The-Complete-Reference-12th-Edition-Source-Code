@@ -1,18 +1,18 @@
-/* A program that uses the Box2 class.
+/* A program that uses the Box class.
 
-   Call this file Box2Demo.java
+   Call this file BoxDemo.java
 */
-class Box2 {
+class Box {
     double width;
     double height;
     double depth;
 }
 
-// This class declares an object of type Box2.
+// This class declares an object of type Box.
 class BoxDemo {
 
     public static void main(String[] args) {
-        Box2 mybox = new Box2();
+        Box mybox = new Box();
         double vol;
 
         // assign values to mybox's instance variables

@@ -1,5 +1,9 @@
 // Use lambda expressions as an argument to a method.
 
+interface StringFunc {
+    String func(String n);
+}
+
 class LambdasAsArgumentsDemo {
 
     // This method has a functional interface as the type of
