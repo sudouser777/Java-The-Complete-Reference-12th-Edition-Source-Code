@@ -1,6 +1,7 @@
 // Some simple math functions, with isFactor() removed.
 
 package appfuncs.simplefuncs;
+
 import appsupport.supportfuncs.SupportFuncs;
 
 public class SimpleMathFuncs {
@@ -13,8 +14,8 @@ public class SimpleMathFuncs {
 
         int min = a < b ? a : b;
 
-        for(int i = 2; i <= min/2; i++) {
-            if(SupportFuncs.isFactor(i, a) && SupportFuncs.isFactor(i, b))
+        for (int i = 2; i <= min / 2; i++) {
+            if (SupportFuncs.isFactor(i, a) && SupportFuncs.isFactor(i, b))
                 return i;
         }
 
@@ -29,8 +30,8 @@ public class SimpleMathFuncs {
 
         int min = a < b ? a : b;
 
-        for(int i = min/2; i >= 2; i--) {
-            if(SupportFuncs.isFactor(i, a) && SupportFuncs.isFactor(i, b))
+        for (int i = min / 2; i >= 2; i--) {
+            if (SupportFuncs.isFactor(i, a) && SupportFuncs.isFactor(i, b))
                 return i;
         }
 

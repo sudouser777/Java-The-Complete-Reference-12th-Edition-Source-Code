@@ -12,7 +12,7 @@ public class MyModAppDemo {
     public static void main(String[] args) {
 
         // First, use built-in functions as before.
-        if(SimpleMathFuncs.isFactor(2, 10))
+        if (SimpleMathFuncs.isFactor(2, 10))
             System.out.println("2 is a factor of 10");
 
         System.out.println("Smallest factor common to both 35 and 105 is " +
@@ -31,14 +31,14 @@ public class MyModAppDemo {
         BinaryFunc binOp = null;
 
         // Find the provider for absPlus and obtain the function.
-        for(BinFuncProvider bfp : ldr) {
-            if(bfp.get().getName().equals("absPlus")) {
+        for (BinFuncProvider bfp : ldr) {
+            if (bfp.get().getName().equals("absPlus")) {
                 binOp = bfp.get();
                 break;
             }
         }
 
-        if(binOp != null)
+        if (binOp != null)
             System.out.println("Result of absPlus function: " +
                     binOp.func(12, -4));
         else
@@ -47,14 +47,14 @@ public class MyModAppDemo {
         binOp = null;
 
         // Now, find the provider for absMinus and obtain the function.
-        for(BinFuncProvider bfp : ldr) {
-            if(bfp.get().getName().equals("absMinus")) {
+        for (BinFuncProvider bfp : ldr) {
+            if (bfp.get().getName().equals("absMinus")) {
                 binOp = bfp.get();
                 break;
             }
         }
 
-        if(binOp != null)
+        if (binOp != null)
             System.out.println("Result of absMinus function: " +
                     binOp.func(12, -4));
         else
