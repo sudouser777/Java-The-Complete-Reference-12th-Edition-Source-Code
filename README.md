@@ -1,7 +1,6 @@
 [![sudouser777 - Java-The-Complete-Reference-12th-Edition-Source-Code/tree/main](https://img.shields.io/static/v1?label=sudouser777&message=Java-The-Complete-Reference-12th-Edition-Source-Code%2Ftree%2Fmain&color=blue&logo=github)](https://github.com/sudouser777/Java-The-Complete-Reference-12th-Edition-Source-Code/tree/main "Go to GitHub repo")
 [![License](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
 [![issues - Java-The-Complete-Reference-12th-Edition-Source-Code/tree/main](https://img.shields.io/github/issues/sudouser777/Java-The-Complete-Reference-12th-Edition-Source-Code/tree/main)](https://github.com/sudouser777/Java-The-Complete-Reference-12th-Edition-Source-Code/issues)
-[![HitCount](https://hits.dwyl.com/sudouser777/Java-The-Complete-Reference-12th-Edition-Source-Code.svg)](https://hits.dwyl.com/sudouser777/Java-The-Complete-Reference-12th-Edition-Source-Code)
 <hr>
 
 # Java: The Complete Reference (12th Edition) - Source Code
