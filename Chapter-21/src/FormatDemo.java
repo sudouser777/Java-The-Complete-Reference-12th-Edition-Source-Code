@@ -1,14 +1,15 @@
 // A very simple example that uses Formatter. 
-import java.util.*;
+
+import java.util.Formatter;
 
 class FormatDemo {
-  public static void main(String[] args) {
-    Formatter fmt = new Formatter();
+    public static void main(String[] args) {
+        Formatter fmt = new Formatter();
 
-    fmt.format("Formatting %s is easy %d %f", "with Java", 10, 98.6);
+        fmt.format("Formatting %s is easy %d %f", "with Java", 10, 98.6);
 
-    System.out.println(fmt);
+        System.out.println(fmt);
 
-    fmt.close();
-  }
+        fmt.close();
+    }
 }
